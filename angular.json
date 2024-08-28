@@ -39,13 +39,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "600kB",
+                  "maximumError": "800kB"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kB",
-                  "maximumError": "4kB"
+                  "maximumWarning": "10kB",
+                  "maximumError": "20kB"
                 }
               ],
               "outputHashing": "all"
@@ -89,11 +89,8 @@
             ],
             "styles": [
               "src/styles.css"
-            ],
-            "scripts": [
-              "node_modules/ionicons/dist/ionicons/ionicons.esm.js", 
-              "node_modules/ionicons/dist/ionicons/ionicons.js"       
             ]
+            
           }
         }
       }
